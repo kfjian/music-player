@@ -13,12 +13,12 @@
     "iconURL": "https://kfjian.github.io/music-player/icon-512.png",
     "tintColor": "e8453c",
     "versions": [{
-      "version": "1.0.2",
-      "buildVersion": "2",
-      "date": "2026-11-06T11:50:11Z",
-      "localizedDescription": "build 2",
+      "version": "1.0.4",
+      "buildVersion": "4",
+      "date": "2026-11-07T12:50:52Z",
+      "localizedDescription": "build 4",
       "downloadURL": "https://kfjian.github.io/music-player/music-player.ipa",
-      "size": 5486030,
+      "size": 5486031,
       "minOSVersion": "15.0"
     }],
     "appPermissions": { "entitlements": [], "privacy": { "NSMicrophoneUsageDescription": "語音點歌需要使用麥克風。" } }
