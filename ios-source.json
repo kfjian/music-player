@@ -1,0 +1,27 @@
+{
+  "name": "音樂播放器",
+  "identifier": "com.kaifujian.musicplayer.source",
+  "sourceURL": "https://kfjian.github.io/music-player/ios-source.json",
+  "iconURL": "https://kfjian.github.io/music-player/icon-512.png",
+  "website": "https://kfjian.github.io/music-player/",
+  "apps": [{
+    "name": "音樂播放器",
+    "bundleIdentifier": "com.kaifujian.musicplayer",
+    "developerName": "Kaifujian",
+    "subtitle": "YouTube 音樂播放器，鎖屏也能聽",
+    "localizedDescription": "載入 kfjian.github.io/music-player 的 iOS 版，支援背景播放、鎖定畫面控制與自動接歌。網頁更新後 App 會自動是最新版。",
+    "iconURL": "https://kfjian.github.io/music-player/icon-512.png",
+    "tintColor": "e8453c",
+    "versions": [{
+      "version": "1.0.2",
+      "buildVersion": "2",
+      "date": "2026-11-06T11:50:11Z",
+      "localizedDescription": "build 2",
+      "downloadURL": "https://kfjian.github.io/music-player/music-player.ipa",
+      "size": 5486030,
+      "minOSVersion": "15.0"
+    }],
+    "appPermissions": { "entitlements": [], "privacy": { "NSMicrophoneUsageDescription": "語音點歌需要使用麥克風。" } }
+  }],
+  "news": []
+}
