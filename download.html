@@ -2,7 +2,7 @@
 <style>body{font-family:system-ui,sans-serif;background:#111;color:#eee;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0}form{display:flex;flex-direction:column;gap:12px;width:min(320px,90vw)}input,button{font-size:18px;padding:12px;border-radius:10px;border:1px solid #444}input{background:#222;color:#eee}button{background:#1db954;color:#fff;border:0}#m{color:#f88;min-height:1.2em}label{font-size:14px;color:#aaa}</style></head>
 <body><form id="f" style="display:none"><div style="font-size:20px">🔒 音樂播放器下載</div><input id="p" type="password" placeholder="放行密碼" autocomplete="current-password"><label><input type="checkbox" id="r" checked style="width:auto"> 這台裝置記住密碼</label><button>開啟</button><div id="m"></div></form>
 <script>
-(function(){var S="coyujxYmGxOAK09VmVXwLA==",N=600000,B={"i":"DnRL6h0BBgAsaY0v","c":"zIwpyafY8sSEESi3OolimA=="},K="unlock:music-player";
+(function(){var S="dykyDJJfzer5dv/cvESUpQ==",N=600000,B={"i":"/5eiWhIEIQnNQqJy","c":"kD2lkBoIupUrrF/KXjZ+UA=="},K="unlock:music-player";
 var u=function(s){return Uint8Array.from(atob(s),function(x){return x.charCodeAt(0)})};
 function dk(pw){var C=crypto.subtle;return C.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]).then(function(m){return C.deriveKey({name:"PBKDF2",salt:u(S),iterations:N,hash:"SHA-256"},m,{name:"AES-GCM",length:256},false,["decrypt"])})}
 function open(k,o){return crypto.subtle.decrypt({name:"AES-GCM",iv:u(o.i)},k,u(o.c)).then(function(x){return new TextDecoder().decode(x)})}
